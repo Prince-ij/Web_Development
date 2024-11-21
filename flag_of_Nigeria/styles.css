@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+}
+
+.rect {
+    height: 500px;
+    width: 900px;
+    background-color: darkgreen;
+    position: relative;
+}
+
+.rect > div {
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+}
+
+div p {
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+}
